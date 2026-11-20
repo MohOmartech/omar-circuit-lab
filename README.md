@@ -6,7 +6,9 @@
 ## 🎓 For students — start here
 
 **Open the app in your browser (no installation):**
-👉 **https://mohomartech.github.io/omar-circuit-lab/**
+👉 **https://omar-circuit-lab.netlify.app/**
+
+(Backup link: https://mohomartech.github.io/omar-circuit-lab/)
 
 - **Password:** `OmarAbdalla` (case-sensitive)
 - Use **Google Chrome** or **Microsoft Edge** on a laptop or desktop.
@@ -35,7 +37,7 @@
 1. Unzip `omar-circuit-lab-v2.zip`.
 2. Double-click `index.html` (opens in Chrome/Edge).
 
-**Option 0 — online:** open https://mohomartech.github.io/omar-circuit-lab/ (no download needed).
+**Option 0 — online:** open https://omar-circuit-lab.netlify.app/ (no download needed).
 
 **Option B — local web server (recommended; most reliable storage behaviour)**
 ```
