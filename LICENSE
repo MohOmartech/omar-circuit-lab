@@ -1,0 +1,46 @@
+OMAR CIRCUIT LAB — EDUCATIONAL USE LICENCE
+Version 1.0, November 2026
+
+Copyright (c) 2026 Eng. Omar Abdalla, Medical Engineering Department,
+KMTC (Kenya Medical Training College) Makindu Campus.
+All rights reserved, except as expressly granted below.
+
+1. PERMITTED USE
+   Students, teachers and educational institutions may, free of charge:
+   a) use and run this software for teaching, learning and personal study;
+   b) read, study and modify the source code for their own learning;
+   c) share unmodified copies, or links to the official repository and website,
+      with other students and teachers for non-commercial educational purposes.
+
+2. CONDITIONS
+   a) This licence and the copyright notice must be kept in every copy.
+   b) The author attribution "Designed & Developed by Eng. Omar Abdalla —
+      KMTC Makindu Campus" must not be removed from the application interface,
+      the About page or generated reports.
+   c) Coursework or projects that use or adapt this software should credit
+      "Omar Circuit Lab by Eng. Omar Abdalla".
+
+3. NOT PERMITTED WITHOUT THE AUTHOR'S WRITTEN PERMISSION
+   a) Commercial use, including selling, licensing, renting or charging for access.
+   b) Rebranding, or presenting this software or a derivative as your own work.
+   c) Publishing or distributing modified versions publicly.
+   d) Removing or altering the copyright notice, this licence or the attribution.
+
+4. MEDICAL AND SAFETY DISCLAIMER
+   This software is an EDUCATIONAL tool. Its simulations use simplified models,
+   and its medical templates are educational prototypes, NOT medical devices.
+   They are not clinically validated, calibrated or tested for electrical safety.
+   Never connect any circuit designed or simulated with this software to a
+   person or patient. Real medical equipment must meet IEC 60601 and the other
+   applicable standards and regulations.
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF
+   THE SOFTWARE OR ANY DESIGN PRODUCED WITH IT.
+
+6. PERMISSIONS AND CONTACT
+   For permission beyond this licence, contact the author through GitHub:
+   https://github.com/MohOmartech
