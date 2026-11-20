@@ -2,7 +2,30 @@
 ### Medical Engineering Design, Electronics Simulation & 3D Prototyping Studio
 **Designed & Developed by Eng. Omar Abdalla — KMTC Makindu Campus**
 
+
+## 🎓 For students — start here
+
+**Open the app in your browser (no installation):**
+👉 **https://mohomartech.github.io/omar-circuit-lab/**
+
+- **Password:** `OmarAbdalla` (case-sensitive)
+- Use **Google Chrome** or **Microsoft Edge** on a laptop or desktop.
+- Your projects are saved **only in your own browser**. Nobody else can see them. Use **Export → Project (JSON)** to keep a backup or hand work in.
+
+**Suggested first hour:**
+1. Dashboard → **Learning Centre** → *Voltage Divider & Ohm's Law*. Follow the 12 steps.
+2. Open the **ECG Monitoring Front End** sample → **Run Simulation** → watch the oscilloscope.
+3. Turn on **Trace** (press `T`) and click any pin to follow the circuit.
+4. Open **3D View** and **Exploded View** to see the board.
+
+**Work offline:** click **Code → Download ZIP** on this page, unzip it, then double-click `index.html`.
+
+> ⚠️ **Safety:** the medical circuits are **educational prototypes only**. Never connect anything you design here to a person.
+
+**Licence:** free for learning and teaching. See [LICENSE](LICENSE). Please credit *Omar Circuit Lab by Eng. Omar Abdalla* in coursework.
+
 ---
+
 
 ## 1. Setup
 
@@ -11,6 +34,8 @@
 **Option A — open directly**
 1. Unzip `omar-circuit-lab-v2.zip`.
 2. Double-click `index.html` (opens in Chrome/Edge).
+
+**Option 0 — online:** open https://mohomartech.github.io/omar-circuit-lab/ (no download needed).
 
 **Option B — local web server (recommended; most reliable storage behaviour)**
 ```
@@ -26,17 +51,17 @@ Then open <http://localhost:8080>.
 | Path | Purpose |
 |---|---|
 | `index.html` | Entry point |
-| `css/app.css` | Visual identity & layout |
-| `js/core.js` | State, undo/redo, IndexedDB storage, Web Crypto security |
-| `js/library.js` | Component symbols, pins, parameters, simulation builders, parts catalog & datasheets |
-| `js/sim.js` | Netlist extraction + MNA simulation engine (DC & transient) |
-| `js/validate.js` | Prototype Validation & Circuit Health Checker |
-| `js/editor.js` | SVG schematic editor |
-| `js/medical.js` | Medical lab & sample projects (templates + documentation) |
-| `js/pcb.js` | PCB studio: footprints, routing, DRC, Gerber/Excellon/BOM export |
-| `js/view3d.js` | Dependency-free 3D renderer & exploded views |
-| `js/copilot.js` | Local rule-based AI Engineering Copilot |
-| `js/ui.js`, `js/pages.js` | Interface |
+| `app.css` | Visual identity & layout |
+| `core.js` | State, undo/redo, IndexedDB storage, Web Crypto security |
+| `library.js` | Component symbols, pins, parameters, simulation builders, parts catalog & datasheets |
+| `sim.js` | Netlist extraction + MNA simulation engine (DC & transient) |
+| `validate.js` | Prototype Validation & Circuit Health Checker |
+| `editor.js` | SVG schematic editor |
+| `medical.js` | Medical lab & sample projects (templates + documentation) |
+| `pcb.js` | PCB studio: footprints, routing, DRC, Gerber/Excellon/BOM export |
+| `view3d.js` | Dependency-free 3D renderer & exploded views |
+| `copilot.js` | Local rule-based AI Engineering Copilot |
+| `ui.js`, `pages.js` | Interface |
 
 No external JavaScript libraries are used, so the app works fully offline.
 
