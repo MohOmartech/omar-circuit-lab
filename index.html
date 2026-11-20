@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omar Circuit Lab — Medical Engineering Design &amp; Simulation Studio</title>
+<meta name="description" content="Omar Circuit Lab v2.0 — circuit design, electrical simulation, medical electronics, PCB prototyping and 3D visualisation. Designed &amp; developed by Eng. Omar Abdalla, KMTC Makindu Campus.">
+<meta name="author" content="Eng. Omar Abdalla — KMTC Makindu Campus">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<!-- Welcome / security gate -->
+<div id="gate">
+  <div class="card" id="gate-card">
+    <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs><rect x="2" y="2" width="60" height="60" rx="16" fill="#0b1626" stroke="url(#bm)" stroke-width="2"/><path d="M10 34h10l4-10 6 20 6-26 5 16h13" fill="none" stroke="url(#bm)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="34" r="2.6" fill="#67e8f9"/><circle cx="54" cy="34" r="2.6" fill="#3b82f6"/></svg>
+    <div class="gate-title">OMAR CIRCUIT LAB</div>
+    <div class="gate-sub">Medical Engineering Design &amp; Simulation Studio · v2.1</div>
+    <div id="gate-form"><p class="muted">Loading…</p></div>
+    <div class="gate-note">
+      <div class="signature">Designed &amp; Developed by <b>Eng. Omar Abdalla</b><br>KMTC Makindu Campus</div>
+    </div>
+  </div>
+</div>
+
+<!-- Application shell -->
+<div id="app" hidden>
+  <header id="topbar">
+    <div class="brand" id="brand" title="Dashboard">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="16" fill="#0b1626" stroke="#22d3ee" stroke-width="2.5"/><path d="M10 34h10l4-10 6 20 6-26 5 16h13" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div><b>OMAR CIRCUIT LAB</b><small>Design · Simulate · Prototype</small></div>
+    </div>
+    <div class="projname" id="projname" title="Rename project"></div>
+    <div class="toolbar" id="toolbar"></div>
+    <span class="simstat" id="simstat">idle</span>
+  </header>
+  <nav id="sidenav"></nav>
+  <main id="main"></main>
+  <footer id="footer"><span>OMAR CIRCUIT LAB v2.1</span><span>Designed &amp; Developed by <b>Eng. Omar Abdalla</b> · KMTC Makindu Campus</span><span class="sp"></span><span id="foot-storage"></span></footer>
+</div>
+<div id="toasts" aria-live="polite"></div>
+
+<script src="js/core.js"></script>
+<script src="js/library.js"></script>
+<script src="js/sim.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/editor.js"></script>
+<script src="js/medical.js"></script>
+<script src="js/pcb.js"></script>
+<script src="js/pins.js"></script>
+<script src="js/view3d.js"></script>
+<script src="js/copilot.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/pages.js"></script>
+</body>
+</html>
